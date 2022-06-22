@@ -1,0 +1,39 @@
+/*=================
+ Calculator.java
+ - 인터페이스
+=================*/
+
+package com.test.spr;
+
+public class CalculatorImpl implements Calculator
+{
+	// 주 업무(core concern) 진행을 위한 메소드 구현
+	@Override
+	public int add(int x, int y)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int sub(int x, int y)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int multi(int x, int y)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int div(int x, int y)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
